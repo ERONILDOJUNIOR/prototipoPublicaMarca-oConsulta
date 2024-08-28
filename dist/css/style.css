@@ -9922,6 +9922,7 @@ textarea.form-control-lg {
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  font-size: 1px;
 }
 
 .text-body {
@@ -27846,4 +27847,52 @@ html[dir=rtl] [type=radio].material-inputs + label:before {
 }
 .mailbox .message-center .message-item .user-img .offline {
   background: #ffbc34;
+}
+
+.custom-left-sidebar {
+    position: fixed;
+    width: 250px; /* Defina a largura desejada */
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2f3d4a; /* Cor de fundo da sidebar */
+    overflow-y: auto; /* Para rolagem vertical */
+}
+
+.custom-sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-sidebar-item {
+    margin: 10px 0;
+}
+
+.custom-sidebar-link {
+    display: block;
+    color: #ffffff; /* Cor do texto */
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.custom-sidebar-link:hover {
+    background-color: #1e2a38; /* Cor ao passar o mouse */
+}
+
+.custom-scroll-sidebar {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.custom-has-arrow {
+    cursor: pointer;
+}
+
+.custom-collapse {
+    display: none;
+}
+
+.custom-first-level {
+    margin-left: 10px;
 }

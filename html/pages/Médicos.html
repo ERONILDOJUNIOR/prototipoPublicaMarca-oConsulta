@@ -278,375 +278,687 @@
           </div>
         </div>
         <div class="table-responsive">
-          <div id="file_export_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer" >
-            
-            <table id="file_export" class="table table-bordered nowrap display dataTable no-footer"
+          <div id="file_export_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
+            <div style="overflow-x: auto;">
+              <table id="file_export" class="table table-bordered nowrap display dataTable no-footer"
               aria-describedby="file_export_info">
               <thead>
                 <tr>
-                  <th class="sorting sorting_asc" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1"
-                    aria-sort="ascending" aria-label=": activate to sort column descending" style="width: 0px;"></th>
-                  <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1"
-                    aria-label="Name: activate to sort column ascending" style="width: 0px;">Name</th>
-                  <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1"
-                    aria-label="Email: activate to sort column ascending" style="width: 0px;">Email</th>
-                  <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1"
-                    aria-label="Phone: activate to sort column ascending" style="width: 0px;">Phone</th>
-                  <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1"
-                    aria-label="Role: activate to sort column ascending" style="width: 0px;">Role</th>
-                  <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1"
-                    aria-label="Age: activate to sort column ascending" style="width: 0px;">Age</th>
-                  <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1"
-                    aria-label="Joining date: activate to sort column ascending" style="width: 0px;">Joining date</th>
-                  <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1"
-                    aria-label="Salery: activate to sort column ascending" style="width: 0px;">Salery</th>
-                  <th class="sorting" tabindex="0" aria-controls="file_export" rowspan="1" colspan="1"
-                    aria-label="Action: activate to sort column ascending" style="width: 0px;">Action</th>
+                  <th>Código</th>
+                  <th>Nome</th>
+                  <th>Pai</th>
+                  <th>Mãe</th>
+                  <th>Telefone</th>
+                  <th>CEP</th>
+                  <th>Bairro</th>
+                  <th>Número</th>
+                  <th>Cidade</th>
+                  <th>CPF</th>
+                  <th>RG</th>
+                  <th>Data de nascimento</th>
+                  <th>Data</th>
+                  <th>Número do cartão SUS</th>
+                  <th>Agente de Saúde</th>
+                  <th>Localidade</th>
+                  <th>Complemento</th>
+                  <th>Ações</th>
                 </tr>
               </thead>
               <tbody>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <tr class="odd">
-                  <td class="sorting_1">
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="customControlValidation2" required="">
-                      <label class="form-check-label" for="customControlValidation2"></label>
-                    </div>
-                  </td>
+                <tr>
+                  <td>001</td>
+                  <td>Maria da Silva</td>
+                  <td>João da Silva</td>
+                  <td>Ana Souza</td>
+                  <td>+55 11 98765-4321</td>
+                  <td>01001-000</td>
+                  <td>Centro</td>
+                  <td>123</td>
+                  <td>São Paulo</td>
+                  <td>123.456.789-00</td>
+                  <td>12.345.678-9</td>
+                  <td>01/01/1980</td>
+                  <td>14/08/2024</td>
+                  <td>123456789012345</td>
+                  <td>Carlos Santana</td>
+                  <td>UBS Central</td>
+                  <td>Apto 101</td>
                   <td>
-                    <img src="../../assets/images/users/1.jpg" alt="user" class="rounded-circle" width="30">
-                    <span class="fw-normal">Genelia Deshmukh</span>
-                  </td>
-                  <td>genelia@gmail.com</td>
-                  <td>+123 456 789</td>
-                  <td>
-                    <span class="
-                        badge
-                        bg-light-danger
-                        text-danger
-                        font-weight-medium
-                      ">Designer</span>
-                  </td>
-                  <td>23</td>
-                  <td>12-10-2014</td>
-                  <td>$1200</td>
-                  <td>
-                    <button type="button" class="
-                        btn btn-sm btn-icon btn-pure btn-outline
-                        delete-row-btn
-                      " data-bs-toggle="tooltip" data-original-title="Delete">
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
                       <i class="ri-close-line fs-5" aria-hidden="true"></i>
                     </button>
                   </td>
                 </tr>
-                <tr class="even">
-                  <td class="sorting_1">
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="customControlValidation3" required="">
-                      <label class="form-check-label" for="customControlValidation3"></label>
-                    </div>
-                  </td>
+                <tr>
+                  <td>002</td>
+                  <td>João Pereira</td>
+                  <td>Carlos Pereira</td>
+                  <td>Maria Oliveira</td>
+                  <td>+55 21 91234-5678</td>
+                  <td>20000-000</td>
+                  <td>Copacabana</td>
+                  <td>456</td>
+                  <td>Rio de Janeiro</td>
+                  <td>987.654.321-00</td>
+                  <td>98.765.432-1</td>
+                  <td>15/05/1990</td>
+                  <td>14/08/2024</td>
+                  <td>987654321012345</td>
+                  <td>Luciana Alves</td>
+                  <td>UBS Zona Sul</td>
+                  <td>Casa 2</td>
                   <td>
-                    <img src="../../assets/images/users/2.jpg" alt="user" class="rounded-circle" width="30">
-                    <span class="fw-normal">Arijit Singh</span>
-                  </td>
-                  <td>arijit@gmail.com</td>
-                  <td>+234 456 789</td>
-                  <td>
-                    <span class="
-                        badge
-                        bg-light-info
-                        text-info
-                        font-weight-medium
-                      ">Developer</span>
-                  </td>
-                  <td>26</td>
-                  <td>10-09-2014</td>
-                  <td>$1800</td>
-                  <td>
-                    <button type="button" class="
-                        btn btn-sm btn-icon btn-pure btn-outline
-                        delete-row-btn
-                      " data-bs-toggle="tooltip" data-original-title="Delete">
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
                       <i class="ri-close-line fs-5" aria-hidden="true"></i>
                     </button>
                   </td>
                 </tr>
-                <tr class="odd">
-                  <td class="sorting_1">
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="customControlValidation4" required="">
-                      <label class="form-check-label" for="customControlValidation4"></label>
-                    </div>
-                  </td>
+                <tr>
+                  <td>003</td>
+                  <td>José Almeida</td>
+                  <td>Paulo Almeida</td>
+                  <td>Clara Fernandes</td>
+                  <td>+55 31 99876-5432</td>
+                  <td>30000-000</td>
+                  <td>Centro</td>
+                  <td>789</td>
+                  <td>Belo Horizonte</td>
+                  <td>321.654.987-00</td>
+                  <td>32.165.498-7</td>
+                  <td>10/10/1975</td>
+                  <td>14/08/2024</td>
+                  <td>321654987098765</td>
+                  <td>Marcos Silva</td>
+                  <td>UBS Centro-Sul</td>
+                  <td>Bloco B</td>
                   <td>
-                    <img src="../../assets/images/users/3.jpg" alt="user" class="rounded-circle" width="30">
-                    <span class="fw-normal">Govinda jalan</span>
-                  </td>
-                  <td>govinda@gmail.com</td>
-                  <td>+345 456 789</td>
-                  <td>
-                    <span class="
-                        badge
-                        bg-light-success
-                        text-success
-                        font-weight-medium
-                      ">Accountant</span>
-                  </td>
-                  <td>28</td>
-                  <td>1-10-2013</td>
-                  <td>$2200</td>
-                  <td>
-                    <button type="button" class="
-                        btn btn-sm btn-icon btn-pure btn-outline
-                        delete-row-btn
-                      " data-bs-toggle="tooltip" data-original-title="Delete">
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
                       <i class="ri-close-line fs-5" aria-hidden="true"></i>
                     </button>
                   </td>
                 </tr>
-                <tr class="even">
-                  <td class="sorting_1">
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="customControlValidation5" required="">
-                      <label class="form-check-label" for="customControlValidation5"></label>
-                    </div>
-                  </td>
+                <tr>
+                  <td>001</td>
+                  <td>Maria da Silva</td>
+                  <td>João da Silva</td>
+                  <td>Ana Souza</td>
+                  <td>+55 11 98765-4321</td>
+                  <td>01001-000</td>
+                  <td>Centro</td>
+                  <td>123</td>
+                  <td>São Paulo</td>
+                  <td>123.456.789-00</td>
+                  <td>12.345.678-9</td>
+                  <td>01/01/1980</td>
+                  <td>14/08/2024</td>
+                  <td>123456789012345</td>
+                  <td>Carlos Santana</td>
+                  <td>UBS Central</td>
+                  <td>Apto 101</td>
                   <td>
-                    <img src="../../assets/images/users/4.jpg" alt="user" class="rounded-circle" width="30">
-                    <span class="fw-normal">Hritik Roshan</span>
-                  </td>
-                  <td>hritik@gmail.com</td>
-                  <td>+456 456 789</td>
-                  <td><span class="badge bg-dark">HR</span></td>
-                  <td>25</td>
-                  <td>2-10-2021</td>
-                  <td>$200</td>
-                  <td>
-                    <button type="button" class="
-                        btn btn-sm btn-icon btn-pure btn-outline
-                        delete-row-btn
-                      " data-bs-toggle="tooltip" data-original-title="Delete">
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
                       <i class="ri-close-line fs-5" aria-hidden="true"></i>
                     </button>
                   </td>
                 </tr>
-                <tr class="odd">
-                  <td class="sorting_1">
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="customControlValidation6" required="">
-                      <label class="form-check-label" for="customControlValidation6"></label>
-                    </div>
-                  </td>
+                <tr>
+                  <td>002</td>
+                  <td>João Pereira</td>
+                  <td>Carlos Pereira</td>
+                  <td>Maria Oliveira</td>
+                  <td>+55 21 91234-5678</td>
+                  <td>20000-000</td>
+                  <td>Copacabana</td>
+                  <td>456</td>
+                  <td>Rio de Janeiro</td>
+                  <td>987.654.321-00</td>
+                  <td>98.765.432-1</td>
+                  <td>15/05/1990</td>
+                  <td>14/08/2024</td>
+                  <td>987654321012345</td>
+                  <td>Luciana Alves</td>
+                  <td>UBS Zona Sul</td>
+                  <td>Casa 2</td>
                   <td>
-                    <img src="../../assets/images/users/5.jpg" alt="user" class="rounded-circle" width="30">
-                    <span class="fw-normal">John Abraham</span>
-                  </td>
-                  <td>john@gmail.com</td>
-                  <td>+567 456 789</td>
-                  <td>
-                    <span class="
-                        badge
-                        bg-light-danger
-                        text-danger
-                        font-weight-medium
-                      ">Manager</span>
-                  </td>
-                  <td>23</td>
-                  <td>10-9-2015</td>
-                  <td>$1200</td>
-                  <td>
-                    <button type="button" class="
-                        btn btn-sm btn-icon btn-pure btn-outline
-                        delete-row-btn
-                      " data-bs-toggle="tooltip" data-original-title="Delete">
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
                       <i class="ri-close-line fs-5" aria-hidden="true"></i>
                     </button>
                   </td>
                 </tr>
-                <tr class="even">
-                  <td class="sorting_1">
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="customControlValidation7" required="">
-                      <label class="form-check-label" for="customControlValidation7"></label>
-                    </div>
-                  </td>
+                <tr>
+                  <td>003</td>
+                  <td>José Almeida</td>
+                  <td>Paulo Almeida</td>
+                  <td>Clara Fernandes</td>
+                  <td>+55 31 99876-5432</td>
+                  <td>30000-000</td>
+                  <td>Centro</td>
+                  <td>789</td>
+                  <td>Belo Horizonte</td>
+                  <td>321.654.987-00</td>
+                  <td>32.165.498-7</td>
+                  <td>10/10/1975</td>
+                  <td>14/08/2024</td>
+                  <td>321654987098765</td>
+                  <td>Marcos Silva</td>
+                  <td>UBS Centro-Sul</td>
+                  <td>Bloco B</td>
                   <td>
-                    <img src="../../assets/images/users/6.jpg" alt="user" class="rounded-circle" width="30">
-                    <span class="fw-normal">Pawandeep kumar</span>
-                  </td>
-                  <td>pawandeep@gmail.com</td>
-                  <td>+678 456 789</td>
-                  <td>
-                    <span class="
-                        badge
-                        bg-light-warning
-                        text-warning
-                        font-weight-medium
-                      ">Chairman</span>
-                  </td>
-                  <td>29</td>
-                  <td>10-5-2013</td>
-                  <td>$1500</td>
-                  <td>
-                    <button type="button" class="
-                        btn btn-sm btn-icon btn-pure btn-outline
-                        delete-row-btn
-                      " data-bs-toggle="tooltip" data-original-title="Delete">
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
                       <i class="ri-close-line fs-5" aria-hidden="true"></i>
                     </button>
                   </td>
                 </tr>
-                <tr class="odd">
-                  <td class="sorting_1">
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="customControlValidation8" required="">
-                      <label class="form-check-label" for="customControlValidation8"></label>
-                    </div>
-                  </td>
+                <tr>
+                  <td>001</td>
+                  <td>Maria da Silva</td>
+                  <td>João da Silva</td>
+                  <td>Ana Souza</td>
+                  <td>+55 11 98765-4321</td>
+                  <td>01001-000</td>
+                  <td>Centro</td>
+                  <td>123</td>
+                  <td>São Paulo</td>
+                  <td>123.456.789-00</td>
+                  <td>12.345.678-9</td>
+                  <td>01/01/1980</td>
+                  <td>14/08/2024</td>
+                  <td>123456789012345</td>
+                  <td>Carlos Santana</td>
+                  <td>UBS Central</td>
+                  <td>Apto 101</td>
                   <td>
-                    <img src="../../assets/images/users/7.jpg" alt="user" class="rounded-circle" width="30">
-                    <span class="fw-normal">Ritesh Deshmukh</span>
-                  </td>
-                  <td>ritesh@gmail.com</td>
-                  <td>+123 456 789</td>
-                  <td>
-                    <span class="
-                        badge
-                        bg-light-danger
-                        text-danger
-                        font-weight-medium
-                      ">Designer</span>
-                  </td>
-                  <td>35</td>
-                  <td>05-10-2012</td>
-                  <td>$3200</td>
-                  <td>
-                    <button type="button" class="
-                        btn btn-sm btn-icon btn-pure btn-outline
-                        delete-row-btn
-                      " data-bs-toggle="tooltip" data-original-title="Delete">
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
                       <i class="ri-close-line fs-5" aria-hidden="true"></i>
                     </button>
                   </td>
                 </tr>
-                <tr class="even">
-                  <td class="sorting_1">
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="customControlValidation9" required="">
-                      <label class="form-check-label" for="customControlValidation9"></label>
-                    </div>
-                  </td>
+                <tr>
+                  <td>002</td>
+                  <td>João Pereira</td>
+                  <td>Carlos Pereira</td>
+                  <td>Maria Oliveira</td>
+                  <td>+55 21 91234-5678</td>
+                  <td>20000-000</td>
+                  <td>Copacabana</td>
+                  <td>456</td>
+                  <td>Rio de Janeiro</td>
+                  <td>987.654.321-00</td>
+                  <td>98.765.432-1</td>
+                  <td>15/05/1990</td>
+                  <td>14/08/2024</td>
+                  <td>987654321012345</td>
+                  <td>Luciana Alves</td>
+                  <td>UBS Zona Sul</td>
+                  <td>Casa 2</td>
                   <td>
-                    <img src="../../assets/images/users/8.jpg" alt="user" class="rounded-circle" width="30">
-                    <span class="fw-normal">Salman Khan</span>
-                  </td>
-                  <td>salman@gmail.com</td>
-                  <td>+234 456 789</td>
-                  <td>
-                    <span class="
-                        badge
-                        bg-light-info
-                        text-info
-                        font-weight-medium
-                      ">Developer</span>
-                  </td>
-                  <td>27</td>
-                  <td>11-10-2014</td>
-                  <td>$1800</td>
-                  <td>
-                    <button type="button" class="
-                        btn btn-sm btn-icon btn-pure btn-outline
-                        delete-row-btn
-                      " data-bs-toggle="tooltip" data-original-title="Delete">
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
                       <i class="ri-close-line fs-5" aria-hidden="true"></i>
                     </button>
                   </td>
                 </tr>
-                <tr class="odd">
-                  <td class="sorting_1">
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="customControlValidation10" required="">
-                      <label class="form-check-label" for="customControlValidation10"></label>
-                    </div>
-                  </td>
+                <tr>
+                  <td>003</td>
+                  <td>José Almeida</td>
+                  <td>Paulo Almeida</td>
+                  <td>Clara Fernandes</td>
+                  <td>+55 31 99876-5432</td>
+                  <td>30000-000</td>
+                  <td>Centro</td>
+                  <td>789</td>
+                  <td>Belo Horizonte</td>
+                  <td>321.654.987-00</td>
+                  <td>32.165.498-7</td>
+                  <td>10/10/1975</td>
+                  <td>14/08/2024</td>
+                  <td>321654987098765</td>
+                  <td>Marcos Silva</td>
+                  <td>UBS Centro-Sul</td>
+                  <td>Bloco B</td>
                   <td>
-                    <img src="../../assets/images/users/1.jpg" alt="user" class="rounded-circle" width="30">
-                    <span class="fw-normal">John Smith</span>
-                  </td>
-                  <td>govinda@gmail.com</td>
-                  <td>+345 456 789</td>
-                  <td>
-                    <span class="
-                        badge
-                        bg-light-success
-                        text-success
-                        font-weight-medium
-                      ">Accountant</span>
-                  </td>
-                  <td>18</td>
-                  <td>12-5-2021</td>
-                  <td>$100</td>
-                  <td>
-                    <button type="button" class="
-                        btn btn-sm btn-icon btn-pure btn-outline
-                        delete-row-btn
-                      " data-bs-toggle="tooltip" data-original-title="Delete">
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
                       <i class="ri-close-line fs-5" aria-hidden="true"></i>
                     </button>
                   </td>
                 </tr>
-                <tr class="even">
-                  <td class="sorting_1">
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="customControlValidation11" required="">
-                      <label class="form-check-label" for="customControlValidation11"></label>
-                    </div>
-                  </td>
+                <tr>
+                  <td>001</td>
+                  <td>Maria da Silva</td>
+                  <td>João da Silva</td>
+                  <td>Ana Souza</td>
+                  <td>+55 11 98765-4321</td>
+                  <td>01001-000</td>
+                  <td>Centro</td>
+                  <td>123</td>
+                  <td>São Paulo</td>
+                  <td>123.456.789-00</td>
+                  <td>12.345.678-9</td>
+                  <td>01/01/1980</td>
+                  <td>14/08/2024</td>
+                  <td>123456789012345</td>
+                  <td>Carlos Santana</td>
+                  <td>UBS Central</td>
+                  <td>Apto 101</td>
                   <td>
-                    <img src="../../assets/images/users/2.jpg" alt="user" class="rounded-circle" width="30">
-                    <span class="fw-normal">Denny Smith</span>
-                  </td>
-                  <td>sonu@gmail.com</td>
-                  <td>+456 456 789</td>
-                  <td><span class="badge bg-dark">HR</span></td>
-                  <td>36</td>
-                  <td>18-5-2009</td>
-                  <td>$4200</td>
-                  <td>
-                    <button type="button" class="
-                        btn btn-sm btn-icon btn-pure btn-outline
-                        delete-row-btn
-                      " data-bs-toggle="tooltip" data-original-title="Delete">
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
                       <i class="ri-close-line fs-5" aria-hidden="true"></i>
                     </button>
                   </td>
                 </tr>
+                <tr>
+                  <td>002</td>
+                  <td>João Pereira</td>
+                  <td>Carlos Pereira</td>
+                  <td>Maria Oliveira</td>
+                  <td>+55 21 91234-5678</td>
+                  <td>20000-000</td>
+                  <td>Copacabana</td>
+                  <td>456</td>
+                  <td>Rio de Janeiro</td>
+                  <td>987.654.321-00</td>
+                  <td>98.765.432-1</td>
+                  <td>15/05/1990</td>
+                  <td>14/08/2024</td>
+                  <td>987654321012345</td>
+                  <td>Luciana Alves</td>
+                  <td>UBS Zona Sul</td>
+                  <td>Casa 2</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>003</td>
+                  <td>José Almeida</td>
+                  <td>Paulo Almeida</td>
+                  <td>Clara Fernandes</td>
+                  <td>+55 31 99876-5432</td>
+                  <td>30000-000</td>
+                  <td>Centro</td>
+                  <td>789</td>
+                  <td>Belo Horizonte</td>
+                  <td>321.654.987-00</td>
+                  <td>32.165.498-7</td>
+                  <td>10/10/1975</td>
+                  <td>14/08/2024</td>
+                  <td>321654987098765</td>
+                  <td>Marcos Silva</td>
+                  <td>UBS Centro-Sul</td>
+                  <td>Bloco B</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>Maria da Silva</td>
+                  <td>João da Silva</td>
+                  <td>Ana Souza</td>
+                  <td>+55 11 98765-4321</td>
+                  <td>01001-000</td>
+                  <td>Centro</td>
+                  <td>123</td>
+                  <td>São Paulo</td>
+                  <td>123.456.789-00</td>
+                  <td>12.345.678-9</td>
+                  <td>01/01/1980</td>
+                  <td>14/08/2024</td>
+                  <td>123456789012345</td>
+                  <td>Carlos Santana</td>
+                  <td>UBS Central</td>
+                  <td>Apto 101</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>002</td>
+                  <td>João Pereira</td>
+                  <td>Carlos Pereira</td>
+                  <td>Maria Oliveira</td>
+                  <td>+55 21 91234-5678</td>
+                  <td>20000-000</td>
+                  <td>Copacabana</td>
+                  <td>456</td>
+                  <td>Rio de Janeiro</td>
+                  <td>987.654.321-00</td>
+                  <td>98.765.432-1</td>
+                  <td>15/05/1990</td>
+                  <td>14/08/2024</td>
+                  <td>987654321012345</td>
+                  <td>Luciana Alves</td>
+                  <td>UBS Zona Sul</td>
+                  <td>Casa 2</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>003</td>
+                  <td>José Almeida</td>
+                  <td>Paulo Almeida</td>
+                  <td>Clara Fernandes</td>
+                  <td>+55 31 99876-5432</td>
+                  <td>30000-000</td>
+                  <td>Centro</td>
+                  <td>789</td>
+                  <td>Belo Horizonte</td>
+                  <td>321.654.987-00</td>
+                  <td>32.165.498-7</td>
+                  <td>10/10/1975</td>
+                  <td>14/08/2024</td>
+                  <td>321654987098765</td>
+                  <td>Marcos Silva</td>
+                  <td>UBS Centro-Sul</td>
+                  <td>Bloco B</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>Maria da Silva</td>
+                  <td>João da Silva</td>
+                  <td>Ana Souza</td>
+                  <td>+55 11 98765-4321</td>
+                  <td>01001-000</td>
+                  <td>Centro</td>
+                  <td>123</td>
+                  <td>São Paulo</td>
+                  <td>123.456.789-00</td>
+                  <td>12.345.678-9</td>
+                  <td>01/01/1980</td>
+                  <td>14/08/2024</td>
+                  <td>123456789012345</td>
+                  <td>Carlos Santana</td>
+                  <td>UBS Central</td>
+                  <td>Apto 101</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>002</td>
+                  <td>João Pereira</td>
+                  <td>Carlos Pereira</td>
+                  <td>Maria Oliveira</td>
+                  <td>+55 21 91234-5678</td>
+                  <td>20000-000</td>
+                  <td>Copacabana</td>
+                  <td>456</td>
+                  <td>Rio de Janeiro</td>
+                  <td>987.654.321-00</td>
+                  <td>98.765.432-1</td>
+                  <td>15/05/1990</td>
+                  <td>14/08/2024</td>
+                  <td>987654321012345</td>
+                  <td>Luciana Alves</td>
+                  <td>UBS Zona Sul</td>
+                  <td>Casa 2</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>003</td>
+                  <td>José Almeida</td>
+                  <td>Paulo Almeida</td>
+                  <td>Clara Fernandes</td>
+                  <td>+55 31 99876-5432</td>
+                  <td>30000-000</td>
+                  <td>Centro</td>
+                  <td>789</td>
+                  <td>Belo Horizonte</td>
+                  <td>321.654.987-00</td>
+                  <td>32.165.498-7</td>
+                  <td>10/10/1975</td>
+                  <td>14/08/2024</td>
+                  <td>321654987098765</td>
+                  <td>Marcos Silva</td>
+                  <td>UBS Centro-Sul</td>
+                  <td>Bloco B</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>Maria da Silva</td>
+                  <td>João da Silva</td>
+                  <td>Ana Souza</td>
+                  <td>+55 11 98765-4321</td>
+                  <td>01001-000</td>
+                  <td>Centro</td>
+                  <td>123</td>
+                  <td>São Paulo</td>
+                  <td>123.456.789-00</td>
+                  <td>12.345.678-9</td>
+                  <td>01/01/1980</td>
+                  <td>14/08/2024</td>
+                  <td>123456789012345</td>
+                  <td>Carlos Santana</td>
+                  <td>UBS Central</td>
+                  <td>Apto 101</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>002</td>
+                  <td>João Pereira</td>
+                  <td>Carlos Pereira</td>
+                  <td>Maria Oliveira</td>
+                  <td>+55 21 91234-5678</td>
+                  <td>20000-000</td>
+                  <td>Copacabana</td>
+                  <td>456</td>
+                  <td>Rio de Janeiro</td>
+                  <td>987.654.321-00</td>
+                  <td>98.765.432-1</td>
+                  <td>15/05/1990</td>
+                  <td>14/08/2024</td>
+                  <td>987654321012345</td>
+                  <td>Luciana Alves</td>
+                  <td>UBS Zona Sul</td>
+                  <td>Casa 2</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>003</td>
+                  <td>José Almeida</td>
+                  <td>Paulo Almeida</td>
+                  <td>Clara Fernandes</td>
+                  <td>+55 31 99876-5432</td>
+                  <td>30000-000</td>
+                  <td>Centro</td>
+                  <td>789</td>
+                  <td>Belo Horizonte</td>
+                  <td>321.654.987-00</td>
+                  <td>32.165.498-7</td>
+                  <td>10/10/1975</td>
+                  <td>14/08/2024</td>
+                  <td>321654987098765</td>
+                  <td>Marcos Silva</td>
+                  <td>UBS Centro-Sul</td>
+                  <td>Bloco B</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>Maria da Silva</td>
+                  <td>João da Silva</td>
+                  <td>Ana Souza</td>
+                  <td>+55 11 98765-4321</td>
+                  <td>01001-000</td>
+                  <td>Centro</td>
+                  <td>123</td>
+                  <td>São Paulo</td>
+                  <td>123.456.789-00</td>
+                  <td>12.345.678-9</td>
+                  <td>01/01/1980</td>
+                  <td>14/08/2024</td>
+                  <td>123456789012345</td>
+                  <td>Carlos Santana</td>
+                  <td>UBS Central</td>
+                  <td>Apto 101</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>002</td>
+                  <td>João Pereira</td>
+                  <td>Carlos Pereira</td>
+                  <td>Maria Oliveira</td>
+                  <td>+55 21 91234-5678</td>
+                  <td>20000-000</td>
+                  <td>Copacabana</td>
+                  <td>456</td>
+                  <td>Rio de Janeiro</td>
+                  <td>987.654.321-00</td>
+                  <td>98.765.432-1</td>
+                  <td>15/05/1990</td>
+                  <td>14/08/2024</td>
+                  <td>987654321012345</td>
+                  <td>Luciana Alves</td>
+                  <td>UBS Zona Sul</td>
+                  <td>Casa 2</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>003</td>
+                  <td>José Almeida</td>
+                  <td>Paulo Almeida</td>
+                  <td>Clara Fernandes</td>
+                  <td>+55 31 99876-5432</td>
+                  <td>30000-000</td>
+                  <td>Centro</td>
+                  <td>789</td>
+                  <td>Belo Horizonte</td>
+                  <td>321.654.987-00</td>
+                  <td>32.165.498-7</td>
+                  <td>10/10/1975</td>
+                  <td>14/08/2024</td>
+                  <td>321654987098765</td>
+                  <td>Marcos Silva</td>
+                  <td>UBS Centro-Sul</td>
+                  <td>Bloco B</td>
+                  <td>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Editar">
+                      <i class="ri-edit-line fs-5" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline" data-bs-toggle="tooltip" data-original-title="Apagar">
+                      <i class="ri-close-line fs-5" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
+                <!-- Adicione mais registros de pacientes conforme necessário -->
               </tbody>
+              
             </table>
+            </div>
+            
             
             <div class="dataTables_paginate paging_simple_numbers" id="file_export_paginate">
               
