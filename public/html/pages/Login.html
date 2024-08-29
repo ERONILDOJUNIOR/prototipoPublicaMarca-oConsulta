@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords"
+    content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, nice admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, " />
+  <meta name="description"
+    content="Nice is powerful and clean admin dashboard template, inpired from Google's Material Design" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Publica | Marcações de Consulta | Login</title>
+  <link rel="canonical" href="https://www.wrappixel.com/templates/niceadmin/" />
+  <!-- Favicon icon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png" />
+  <!-- Custom CSS -->
+  <link href="../../dist/css/style.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <div class="auth-wrapper d-flex no-block justify-content-center align-items-center" style="
+        background: url(../../assets/images/background/publica.jpg)
+          no-repeat center center;
+        background-size: cover;
+      ">
+      <div class="auth-box on-sidebar p-4 bg-white m-0" style="border-radius: 10px;">
+        
+        <!-- Login Form -->
+        <div id="loginform" class="active-section">
+          <div class="logo text-center">
+            <span class="db"><img src="../../assets/images/Publica Brasil Logo.png" alt="logo" /><br />
+              <label for="">Sistema de Marcação de Consultas</label>
+            </span>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <form class="form-horizontal mt-3 form-material" id="loginform-form" action="Home2.html">
+                <div class="form-group mb-3">
+                  <div class="col-xs-12">
+                    <input class="form-control" type="text" required="" placeholder="Usuário" />
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <div class="col-xs-12">
+                    <input class="form-control" type="password" required="" placeholder="Senha" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="ms-auto">
+                    <a href="javascript:void(0)" id="to-recover" class="
+                            link
+                            font-weight-medium
+                            d-flex
+                            align-items-center
+                          " onclick="mostrarRecuperarSenha();"><i class="ri-lock-line fs-5 me-1"></i> Esqueceu a senha?</a>
+                  </div>
+                </div>
+                <div class="form-group text-center my-3">
+                  <div class="col-xs-12">
+                    <button class="
+                              btn btn-info
+                              d-block
+                              w-100
+                              waves-effect waves-light
+                            " type="submit">
+                      Entrar
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recover Password Form -->
+        <div id="recoverform" class="inactive-section" style="display: none;">
+          <div class="logo">
+            <h3 class="font-weight-medium mb-3">Recuperar Senha</h3>
+            <span>Entre com seu email:</span>
+          </div>
+          <div class="row mt-3">
+            <form class="col-12 form-material" action="inbox-email.html">
+              <div class="form-group row">
+                <div class="col-12">
+                  <input class="form-control" type="email" required="" placeholder="Email do Usuário" />
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <button class="btn d-block w-100 btn-primary text-uppercase" type="submit" name="action">
+                    Enviar email de recuperação
+                  </button>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-12 text-center">
+                  <button  class="btn d-block w-100 btn-primary text-uppercase" type="button" onclick="voltarParaLogin();">
+                    Voltar
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<script>
+  function mostrarRecuperarSenha() {
+    document.getElementById("loginform").style.display = "none";
+    document.getElementById("recoverform").style.display = "block";
+  }
+
+  function voltarParaLogin() {
+    document.getElementById("recoverform").style.display = "none";
+    document.getElementById("loginform").style.display = "block";
+  }
+</script>
+
+<script src="../../dist/libs/jquery/dist/jquery.min.js"></script>
+<script src="../../dist/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
